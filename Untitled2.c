@@ -1,4 +1,4 @@
-void BS(const int *a,int *as)
+void BS(const int const *a,int *as)
 { 
 int i,j,temp=0;
 for(i=0;i<10;i++)
@@ -14,4 +14,4 @@ for(i=0;i<10;i++)
 		}	
 	}
 	}
-} 
+}
